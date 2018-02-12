@@ -3,8 +3,9 @@
 import os
 import sys
 import urllib.request
-client_id = "N_vYp3KR4GNFfVsLzN87"
-client_secret = "72R5VwJAyZ"
+client_id = "your secret id"
+client_secret = "your secret password"
+# https://developers.naver.com/products/clova/tts/
 
 def naverVoiceApi(txt):
     encText = urllib.parse.quote(txt)
